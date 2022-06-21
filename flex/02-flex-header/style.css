@@ -22,17 +22,9 @@ ul {
   align-items: center;
   margin: 10px;
   padding: 10px;
-  flex-grow: 1;
+  display: flex;
 }
 
-*/.left-links {
-  background: black;
-  float: left;
-}
-.left-links li {
-background: red;
-display: inline-block;
-}
 a {
   display: inline-flex;
   font-size: 22px;
